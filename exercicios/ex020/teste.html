@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .especial:visited {
+            color: yellow;
+        }
+        .especial:active {
+            color:blue;
+        }
+        .especial::before {
+            content: '☛';
+            color: black;
+        }
+        .especial::after {
+            content: '☚';
+            color:black
+        }
+        div >p {
+            display: none;
+        }
+        div:hover >p {
+            display: block;
+            background-color: green;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Alguns Testes</h1>
+    <ul>
+        <li><a href="http://youtube.com/cursoemvideo" target="_blank" class="especial">Canal do cursoemvideo</a></li>
+    </ul>
+    <br>
+    <div>
+        Clique aqui
+        <p>SUPRESA</p>
+    </div>
+
+    
+</body>
+</html>

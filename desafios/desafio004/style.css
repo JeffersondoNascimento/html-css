@@ -1,0 +1,12 @@
+@charset "UFT-8";
+
+body {
+    background-color: black;
+}
+h1 { color: white;}
+h2 {color: white;}
+p {color: white;}
+ol {color: white;}
+dl {color: white;}
+a {color: #FFE4E1;}
+mark {background-color: #808080 ;}
