@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('../fontes/idroid.otf') format('opentype');
+    src: url('./fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -30,7 +30,7 @@
 
 body {
     background-color:var(--cor0);
-    font-family: var(--fonte-padrao);
+    font-family:var(--fonte-padrao);
 }
 a.externo::after {
     content: '\00A0\1F517';
@@ -67,7 +67,7 @@ header {
 }
 
 header >p {
-    font-family: var(--fonte-padrao);
+    font-family:var(--fonte-padrao);
     color: white;
     font-size: 1.2em;
     max-width: 600px;
@@ -123,7 +123,7 @@ header h1 {
 
 main h1 {
     color:var(--cor5);
-    font-family: var(--fonte-android);
+    font-family:var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
 }
